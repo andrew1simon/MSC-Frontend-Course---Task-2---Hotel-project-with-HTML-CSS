@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+/* Montserrat - "EB Garamond" */
+
+.hero {
+    min-height: 75vh;
+    width: 100%;
+    background-image: url('/img/hero-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    background-attachment: fixed;
+    background-color: #14274A;
+    backdrop-filter: ;
+}
+.hero-overlay {
+    min-height: 75vh;
+    width: 100%;
+    background-color: #14274A;
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 20;
+}
+.logo-cont {
+    background-color: #E0B973;
+    padding: 20px 10px 20px 10px;
+    border-radius: 0 0 20px 20px;
+    width: 150px;
+    margin-left: 50px;
+    color: #14274A;
+    text-align: center;
+
+}
+
+.logo-text-1 {
+    font-family: "EB Garamond" ;
+    font-weight: bold;
+    font-size: 25px;
+}
+.logo-text-2 {
+    font-family: "EB Garamond" ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu-cont {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+.menu-item {
+    float: left;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat";
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.hero-main {
+    z-index: 20;
+    position: relative;
+    padding-top: 70px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px ;
+}
+.hero-text-1 {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+.hero-text-2 {
+    font-family: "EB Garamond";
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 90px;
+}
+.hero-text-3 {
+    font-family: "EB Garamond";
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 15px;
+}
+.hero-p {
+    font-size: 15px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.book-btn {
+    background-color: #E0B973;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 30px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 15px;
+    width: max-content;
+}
+
+.section-2 {
+    padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.head-s-2 {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: #14274A;
+    text-align: center;
+}
+.feature-card {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0 10px 0;
+}
+.feature-card-title {
+    font-family: 'EB Garamond';
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #14274A;
+}
+.feature-card-p {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 500;
+}
+.feature-card-col-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature-card-col-2 {
+    margin: auto;
+}
+.card-img {
+    width: 80%;
+    border-radius: 10px;
+    margin: 0 auto 0 auto;
+    display: block;
+}
+.footer {
+    color: #E0B973;
+    background-color: #14274A;
+    padding: 20px 10px 20px 10px;
+    font-family: 'EB Garamond';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-copyright {
+    color: white;
+    opacity: 80%;
+    font-family: 'Montserrat';
+}
